@@ -4,6 +4,7 @@
   "codeowners": [
     "@izacus"
   ],
+  "config_flow": true,
   "dependencies": [],
   "documentation": "https://www.home-assistant.io/integrations/badi_crowdmonitor",
   "integration_type": "service",
@@ -13,6 +14,6 @@
     "websockets==12.0"
   ],
   "ssdp": [],
-  "version": "1.0.0",
+  "version": "0.1",
   "zeroconf": []
 }
