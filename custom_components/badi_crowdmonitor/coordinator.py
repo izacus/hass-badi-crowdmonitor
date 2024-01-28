@@ -26,7 +26,7 @@ class BadiCrowdmonitorDataCoordinator(DataUpdateCoordinator["BadiCrowdmonitorCoo
     WSS_URL = "wss://badi-public.crowdmonitor.ch:9591/api"
 
     def __init__(self, hass: HomeAssistant) -> None:
-        update_interval = timedelta(minutes=1)
+        update_interval = timedelta(minutes=5)
         super().__init__(hass, _LOGGER, name=DOMAIN, update_interval=update_interval)
 
     async def _async_update_data(self) -> dict[str, BadiCrowdData]:
