@@ -1,0 +1,17 @@
+{
+  "domain": "badi_crowdmonitor",
+  "name": "Badi Crowdmonitor",
+  "codeowners": [
+    "@izacus"
+  ],
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/badi_crowdmonitor",
+  "integration_type": "service",
+  "homekit": {},
+  "iot_class": "cloud_polling",
+  "requirements": [
+    "websockets==12.0"
+  ],
+  "ssdp": [],
+  "zeroconf": []
+}
